@@ -12,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     clientId={client}
     authorizationParams={{      
       redirect_uri: window.location.origin,
+      audience: audience,
     }}
   >
     <App />
